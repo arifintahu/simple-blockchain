@@ -1,5 +1,5 @@
 {
-  "name": "simple-blockchain",
+  "name": "@arifintahu/simple-blockchain",
   "version": "1.1.0",
   "description": "Simple blockchain",
   "main": "src/index.js",
@@ -8,6 +8,13 @@
   },
   "author": "arifintahu",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arifintahu/simple-blockchain.git"
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
+  },
   "dependencies": {
     "crypto-js": "^4.0.0",
     "elliptic": "^6.5.3"
