@@ -1,4 +1,4 @@
-const { Blockchain, Transaction } = require('./module/blockchain.js');
+const { Blockchain, Transaction } = require('../src/index.js');
 const EC = require('elliptic').ec;
 const ec = new EC('secp256k1');
 
@@ -16,5 +16,5 @@ myCoin.minePendingTransactions(myWalletAddress);
 
 console.log('\nBalance of arifintahu-address is ', myCoin.getBalanceOfAddress(myWalletAddress));
 
-// console.log('\nChain: ', JSON.stringify(myCoin.chain, null, 4));
+console.log('\nChain: ', JSON.stringify(myCoin.chain, null, 4));
 console.log('Is chain valid? ', myCoin.isChainValid());

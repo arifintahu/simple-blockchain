@@ -1,10 +1,10 @@
 {
   "name": "simple-blockchain",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple blockchain",
-  "main": "src/main.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node src/main.js"
+    "test": "node test/test.js"
   },
   "author": "arifintahu",
   "license": "ISC",
